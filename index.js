@@ -1,7 +1,7 @@
 // Server Instance
 const server = require('./server');
 
-const serverPort = process.env.API_PORT || 41000;
+const serverPort = process.env.PORT || 41000;
 
 // Initialize server
 server.listen(serverPort, (err) => {
